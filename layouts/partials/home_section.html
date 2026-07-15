@@ -1,0 +1,31 @@
+<div id={{ .SectionTag }} class="section {{ .Class }}">
+    <h2 class="section-title">
+        <div class="centered-content">
+            {{ .SectionTitle }}
+        </div>
+    </h2>
+    <div class="centered-content">
+    {{ range (where .context.Site.RegularPages "Section" .SectionTag) }}
+        <div class="item-summary">
+            <div class="item-image">
+                {{ if .Params.teaser }}
+                    <img src="media/teasers/{{ .Params.teaser }}" alt={{ .Title}}/>
+                {{ end }}
+            </div>
+            <div class="item-details">
+                <div class="item-header">
+                    <h3>{{ .Title }}</h3>
+                    {{ partial "paper_info.html" .}}
+                </div>
+                <p>{{ .Params.Summary | markdownify }}</p>
+                {{ if .Params.publishPage }}
+                <p style="margin-top: -10px">
+                    {{ partial "styled_link.html" (dict "url" .Permalink "text" "Read more >>") }}
+                </p>
+                {{ end }}
+                {{ partial "quick_links.html" .Params.links }}
+            </div>
+        </div>
+    {{ end }}
+    </div>
+</div>

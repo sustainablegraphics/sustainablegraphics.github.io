@@ -1,0 +1,23 @@
+
+
+<header class="header">
+    {{ with .Site.Params.info }}
+    
+    <div class="row-about section-title">
+        <div class="centered-content">
+            <h1>
+                {{ .name }}
+            </h1>
+            <div >
+                {{ .description }}
+            </div>
+        </div>
+
+    </div>
+    <div class="col-about text centered-content">
+        {{ $.Content }}
+    </div>
+
+    {{ end }}
+
+</header>

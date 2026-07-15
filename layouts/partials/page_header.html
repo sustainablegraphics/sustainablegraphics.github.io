@@ -1,0 +1,17 @@
+
+
+<header class="page-header">
+    {{ with .Site.Params.info }}
+    
+    <div class="section-title">
+        <a href="/">
+        <h1>
+            {{ .name }}
+        </h1>
+        </a>
+    </div>
+
+    {{ end }}
+
+    {{ partial "navbar.html" .}}
+</header>

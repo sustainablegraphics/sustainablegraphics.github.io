@@ -1,0 +1,47 @@
+baseURL = "em-yu.github.io/sustainable.graphics"
+languageCode = "en-us"
+title = "Community Group for Sustainable Research in Computer Graphics"
+description = ""
+# sectionPagesMenu = "main"
+[params]
+    [params.info]
+        name = "Sustainable Research in Computer Graphics"
+        description = "Affinity group"
+        # twitter = "https://twitter.com/emxtyu"
+        # bluesky = "https://bsky.app/profile/emxtyu.bsky.social"
+        # linkedin = "https://www.linkedin.com/in/emilie-yu-312003109/"
+        # github = "https://github.com/em-yu"
+        # cv = "media/CV_Emilie_Yu.pdf"
+        # email = "emiliextyu@gmail.com"
+    [params.style]
+        primaryColor = "#127665"
+
+
+[menu]
+    # [[menu.main]]
+    #     identifier = "about"
+    #     name = "About"
+    #     title = "About"
+    #     url = "/"
+    #     weight = -120
+
+    # [[menu.main]]
+    #     identifier = "research"
+    #     name = "Research"
+    #     title = "Research"
+    #     url = "/#research"
+    #     weight = -110
+
+    # [[menu.main]]
+    #     identifier = "projects"
+    #     name = "Projects"
+    #     title = "Projects"
+    #     url = "/#project"
+    #     weight = -100
+
+    # [[menu.main]]
+    #     identifier = "contact"
+    #     name = "Contact"
+    #     title = "Contact"
+    #     url = "/#contact"
+    #     weight = -90

@@ -1,0 +1,13 @@
+
+{{ define "main" }}
+{{ partial "index_header.html" . }}
+
+{{ partial "home_section.html" (dict "context" . "SectionTitle" "Events" "SectionTag" "events") }}
+
+{{ partial "organizers.html" . }}
+
+{{ partial "contact.html" (dict "context" .) }}
+
+
+{{ end }}
+
