@@ -11,7 +11,7 @@
 
             {{ if .Params.bigTeaser }}
             <div class="teaser-image">
-                <img src="media/{{ .Params.bigTeaser }}" alt={{ .Title }}/>
+                <img src="{{.Site.BaseURL}}/media/{{ .Params.bigTeaser }}" alt={{ .Title }}/>
                 <div class="teaser-caption">{{ .Params.bigTeaserCaption}}</div>
             </div>
             {{ end }}

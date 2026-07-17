@@ -1,7 +1,8 @@
-baseURL = "sustainable.graphics"
+baseURL = "//sustainable.graphics"
 languageCode = "en-us"
 title = "Community Group for Sustainable Research in Computer Graphics"
 description = ""
+relativeURLs = true
 # sectionPagesMenu = "main"
 [params]
     [params.info]

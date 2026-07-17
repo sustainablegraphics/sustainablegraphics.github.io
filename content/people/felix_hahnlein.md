@@ -1,6 +1,6 @@
 ---
 name: "Felix Hähnlein"
-picture: "media/people/felix-haehnlein-256.jpg"
+picture: "felix-haehnlein-256.jpg"
 role: "Postdoc"
 affiliation: "University of Washington"
 website: "https://obikate.github.io/"

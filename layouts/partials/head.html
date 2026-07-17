@@ -9,6 +9,7 @@
   <meta name="author" content="">
   <meta name="keywords" content="">
   <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="icon" type="image/svg+xml" href="media/favicon.svg">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,10 +22,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono" rel="stylesheet">
 
   {{ $baseurl := .Site.BaseURL }}
-
-  <link rel="stylesheet" type="text/css" href="css/main.css">
-  <link rel="stylesheet" type="text/css" href="css/header.css">
-  <link rel="stylesheet" type="text/css" href="css/link.css">
+  {{ $baseurl := .Site.BaseURL }}
+  <base href="{{ $baseurl }}">
+  <link rel="stylesheet" type="text/css" href="{{ $baseurl }}/css/main.css">
+  <link rel="stylesheet" type="text/css" href="{{ $baseurl }}/css/header.css">
+  <link rel="stylesheet" type="text/css" href="{{ $baseurl }}/css/link.css">
 
 </head>
 <body class="">

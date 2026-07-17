@@ -9,7 +9,7 @@
         <div class="item-summary">
             <div class="item-image">
                 {{ if .Params.teaser }}
-                    <img src="media/teasers/{{ .Params.teaser }}" alt={{ .Title}}/>
+                    <img src="{{.Site.BaseURL}}/media/teasers/{{ .Params.teaser }}" alt={{ .Title}}/>
                 {{ end }}
             </div>
             <div class="item-details">

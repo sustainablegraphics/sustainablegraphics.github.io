@@ -11,7 +11,7 @@
         
         <div class="person">
             <a href="{{.Params.Website}}">
-            <img src="{{.Params.Picture}}" alt="{{.Params.Name}}"/>
+            <img src="{{.Site.BaseURL}}/media/people/{{.Params.Picture}}" alt="{{.Params.Name}}"/>
             </a>
             <div class="main">
                 {{.Params.Name}}
