@@ -12,7 +12,6 @@ relativeURLs = true
         # bluesky = "https://bsky.app/profile/emxtyu.bsky.social"
         # linkedin = "https://www.linkedin.com/in/emilie-yu-312003109/"
         # github = "https://github.com/em-yu"
-        # cv = "media/CV_Emilie_Yu.pdf"
         # email = "emiliextyu@gmail.com"
     [params.style]
         primaryColor = "#127665"
